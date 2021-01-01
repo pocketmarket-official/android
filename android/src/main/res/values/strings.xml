@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">포켓마켓</string>
+    <string name="notification_kds_channel_name">Notificatino KDS</string>
+    <string name="notification_kds_channel_desc">Notificatino KDS</string>
+
+
+
+</resources>

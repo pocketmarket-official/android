@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "196040287857",
+    "firebase_url": "https://pocket-market-ddc08.firebaseio.com",
+    "project_id": "pocket-market-ddc08",
+    "storage_bucket": "pocket-market-ddc08.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:196040287857:android:4c691c8f3d61b58730ddd0",
+        "android_client_info": {
+          "package_name": "com.pocketmarket.Android"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "196040287857-j48o48v5kmr8gke5k5ei8jqdgjves8vr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCmqLVt1w6gxKk4KfGyA5gabhnrOAAcdk4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "196040287857-j48o48v5kmr8gke5k5ei8jqdgjves8vr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
