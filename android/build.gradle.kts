@@ -12,7 +12,7 @@ android {
     defaultConfig {
         applicationId = "com.pocketmarket.Android"
         minSdkVersion(21)
-        targetSdkVersion(28)
+        targetSdkVersion(29)
         versionCode = 1
         versionName = "1.0"
         multiDexEnabled = true
