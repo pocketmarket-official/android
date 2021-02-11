@@ -6,8 +6,8 @@ plugins {
 }
 
 android {
-    compileSdkVersion(28)
-    buildToolsVersion = "28.0.3"
+    compileSdkVersion(29)
+    buildToolsVersion = "29.0.3"
 
     defaultConfig {
         applicationId = "com.pocketmarket.Android"
@@ -25,7 +25,8 @@ android {
         getByName("debug") {
             isMinifyEnabled = false
             isDebuggable = true
-            buildConfigField("String", "entryUrl", "\"http://localhost:3000\"")
+            // buildConfigField("String", "entryUrl", "\"http://localhost:3000\"")
+            buildConfigField("String", "entryUrl", "\"http://13.124.90.138:3000\"")
             // buildConfigField("String", "entryUrl", "\"http://localhost:3000\"")
             proguardFiles(getDefaultProguardFile("proguard-android.txt"), "proguard-rules.pro")
         }
@@ -37,13 +38,12 @@ android {
             proguardFiles(getDefaultProguardFile("proguard-android.txt"), "proguard-rules.pro")
         }
 
-        /*getByName("devDebug") {
+        create("DeviceDebug") {
             isMinifyEnabled = false
             isDebuggable = false
-
-        }*/
-
-
+            buildConfigField("String", "entryUrl", "\"http://172.30.1.9:3000\"")
+            proguardFiles(getDefaultProguardFile("proguard-android.txt"), "proguard-rules.pro")
+        }
     }
 
     compileOptions {
